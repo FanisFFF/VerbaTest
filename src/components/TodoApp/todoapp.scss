@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.header button {
+  color: white;
+}
+.header button:first-child {
+  background-color: #747bff;
+}
+.header button:last-child {
+  background-color: rgb(255, 103, 103);
+}
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+.filters input {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+.filters input[type-radio] {
+  display: none;
+}
+.filters input :hover {
+  border-color: #646cff;
+}
+.filters input:focus,
+.filters input:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.tasks {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.task {
+  margin-bottom: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks span {
+  min-width: 300px;
+}
